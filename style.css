@@ -1,0 +1,26 @@
+body{
+font-size: 16px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-style: oblique;  
+line-height: 1.5;
+background-color: bisque;  
+}
+h1
+{
+    color: darkorange;
+    text-align: center;
+    text-transform: capitalize;
+}
+h3
+{
+    color: goldenrod;
+    font-variant: small-caps;
+}
+a{
+color: orangered;
+}
+a:visited
+{
+color: firebrick;
+}

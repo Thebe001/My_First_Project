@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <h3>Create Account</h3>
+        <form  id="form" class="form">
+            <p><label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Ex:Luuk" required > </p>
+            <p><label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Ex:Jones" required > </p>
+                <p><label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="mail" placeholder="Luuk.Jones@gmail.com"
+                    required > </p>
+                    <p><label for="pass">Password:</label>
+                    <input type="password" id="pass" name="pass" required > </p>
+                    
+    
+
+            <p>Employement Status
+                <input type="radio" name="stat" value="emp" id="emp">
+                <label for="emp">Employed</label>
+                <input type="radio" name="stat" value="stu" id="stu">
+                <label for="stu">Student</label>
+                <input type="radio" name="stat" id="unm" value="unm" checked="checked">
+                <label for="unm">Unemployed</label>
+                
+
+            </p>
+            <p>What's Your Gender ?
+                <input type="radio" name="gen" value="male" id="male" checked="checked">
+                <label for="male">Male</label>
+                <input type="radio" name="gen" value="fem" id="fem">
+                <label for="fem">Female</label>
+                <input type="radio" name="gen" value="els" id="els">
+                <label for="els">Other</label>
+            </p>
+            <p>
+                <label for="langu">What's your Motherlanguage</label>
+                <select name="langu" id="langu">
+                <option value="French">French</option>
+                <option value="Arabic">Arabic</option>
+                <option value="English">English</option>
+                <option value="German">German</option></select>
+            </p>
+            <p><label for="feed">If you have a feedback,you can write it here :</label>
+            <textarea name="feed" id="feed" cols="30" rows="10"></textarea></p>
+            <input type="submit" value="Send">
+            <input type="reset" value="reset">
+        </form>
+        <a href="#">To The Top</a>
+        <br>
+        <a href="main.html">Return To The Main page</a>
+    </body>
+   
+</html>
